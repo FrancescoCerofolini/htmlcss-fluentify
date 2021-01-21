@@ -10,7 +10,7 @@ header {
   position: relative;
   width: 100%;
   height: 60vh;
-  background-color: darkcyan;
+  background-color: #191970;
 }
 #menu {
   width: 80%;
@@ -40,14 +40,14 @@ header {
 #logo .nav_left {
   position: absolute;
   top: 50%;
-  left: 30%;
+  left: 10%;
 }
 #logo .nav_right {
   position: absolute;
   top: 50%;
   right: 0;
 }
-.button {
+.btn {
   text-decoration: none;
   color: white;
   display: inline;
@@ -69,7 +69,6 @@ header {
   background-color: rgb(0, 181, 26);
 }
 .btn_filled:hover {
-  background-color: darkcyan;
   color: orange;
   border: 1px solid white;
 }
@@ -78,6 +77,44 @@ header {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 60%;
-  height: 40vh;
+  width: 40%;
+  height: 35vh;
+}
+#banner .banner_text {
+  position: absolute;
+  bottom: 50%;
+  left: 10%;
+  font-size: 1.5em;
+  color: white;
+}
+
+.btn_big {
+  position: absolute;
+  bottom: 35%;
+  left: 10%;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 10px;
+  font-size: 0.8em;
+}
+.btn_big_filled {
+  background-color: rgb(0, 181, 26);
+  padding: 1%
+}
+.btn_big_filled:hover {
+  color: orange;
+  border: 1px solid white;
+}
+
+.slider {
+  width: 100%;
+  height: 18vh;
+  background-color: lightgrey;
+  text-align: center;
+  padding: 2% 0;
+}
+.slider h3 {
+  margin: 1.5%;
+  color: grey;
 }
