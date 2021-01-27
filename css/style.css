@@ -163,10 +163,6 @@ header {
 
 
 
-main hr {
-  width: 80%;
-  margin: 0 auto;;
-}
 
 
 .horizzontal_content {
@@ -199,4 +195,39 @@ main hr {
   text-decoration: underline;
   color: darkcyan;
   margin: 4%;
+}
+
+
+footer {
+  padding: 3rem 2rem;
+  height: 10vh;
+  width: 100%;
+  background-color: lightgrey;
+}
+
+.footer_wrapper::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.footer_wrapper {
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer_text h1 {
+  float: left;
+  font-size: 2rem;
+  padding: 0 3%;
+}
+
+.footer_fake_menu a {
+  float: right;
+  text-decoration: none;
+  color: white;
+  padding: 0.9%;
+  border-radius: 5px;
+  font-size: 0.9rem;
 }
