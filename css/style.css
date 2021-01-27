@@ -10,7 +10,7 @@ header {
   position: relative;
   width: 100%;
   height: 60vh;
-  background-color: #191970;
+  background-color: #3064a4;
 }
 #menu {
   width: 80%;
@@ -60,13 +60,13 @@ header {
   border: 1px solid white;
 }
 .btn_empty:hover {
-  background-color: rgb(0, 181, 26);
+  background-color: #a0c62e;
   color: orange;
 }
 
 .btn_filled {
   padding: 3% 5%;
-  background-color: rgb(0, 181, 26);
+  background-color: #a0c62e;
 }
 .btn_filled:hover {
   color: orange;
@@ -99,7 +99,7 @@ header {
   font-size: 0.8em;
 }
 .btn_big_filled {
-  background-color: rgb(0, 181, 26);
+  background-color: #a0c62e;
   padding: 1%
 }
 .btn_big_filled:hover {
@@ -117,4 +117,86 @@ header {
 .slider h3 {
   margin: 1.5%;
   color: grey;
+}
+
+
+
+
+#info {
+  margin: 0 1%;
+  padding: 40px 8%;
+  text-align: center;
+  border-bottom: 1px solid lightgrey;
+}
+
+#info::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  background-color: white;
+}
+.column img {
+  height: 200px;
+  margin: 5%;
+}
+.column h2 {
+  text-transform: capitalize;
+  margin: 5%;
+  font-size: 2rem;
+  color: #a0c62e;
+}
+
+.column hr {
+  width: 20%;
+  margin: 15% auto;
+  color: grey;
+}
+
+.column p {
+  font-size: 1.2rem;
+  color: grey;
+}
+
+
+
+main hr {
+  width: 80%;
+  margin: 0 auto;;
+}
+
+
+.horizzontal_content {
+  position: relative;
+  width: 80%;
+  height: 30vh;
+  margin: 20px auto;
+  background-image: url('../img/mountain.svg');
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-position: 25% 70%;
+  background-color: white;
+}
+
+.horizzontal_content_text {
+  position: absolute;
+  top: 25%;
+  right: 30%;
+}
+.horizzontal_content_text h1 {
+  font-size: 2rem;
+  padding: 3%
+}
+.horizzontal_content_text p {
+  font-size: 1rem;
+  margin: 4%;
+}
+.horizzontal_content_text small {
+  font-size: 0.8rem;
+  text-decoration: underline;
+  color: darkcyan;
+  margin: 4%;
 }
